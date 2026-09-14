@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CardioIA — Assistente Cardiológico</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="app">
+
+    <header class="header">
+      <div class="header-title">
+        <span class="logo" aria-hidden="true">❤️</span>
+        <div>
+          <h1>CardioIA</h1>
+          <p class="subtitle">Assistente Cardiológico Inteligente</p>
+        </div>
+      </div>
+      <span id="status-badge" class="badge badge-offline" title="Estado da conexão com o backend">verificando…</span>
+    </header>
+
+    <p class="disclaimer" role="note">
+      ⚠️ Este é um protótipo educacional (FIAP — Fase 5). Ele <strong>não substitui</strong> atendimento
+      médico. Em caso de emergência, ligue <strong>192 (SAMU)</strong>.
+    </p>
+
+    <main id="chat" class="chat" aria-live="polite" aria-label="Conversa com o assistente"></main>
+
+    <div id="quick-replies" class="quick-replies" aria-label="Sugestões de mensagens"></div>
+
+    <form id="chat-form" class="composer" autocomplete="off">
+      <input
+        id="chat-input"
+        type="text"
+        placeholder="Escreva sua mensagem…"
+        aria-label="Mensagem para o assistente"
+        maxlength="500"
+        required
+      />
+      <button id="send-btn" type="submit" aria-label="Enviar mensagem">Enviar</button>
+    </form>
+
+    <footer class="footer">
+      Projeto CardioIA · Fase 5 · Parte 2 — Interface de Interação com o Usuário
+    </footer>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
