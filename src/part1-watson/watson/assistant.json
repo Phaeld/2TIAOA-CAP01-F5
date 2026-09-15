@@ -1,0 +1,2637 @@
+{
+  "intents": [
+    {
+      "intent": "chest_pain",
+      "examples": [
+        {
+          "text": "I feel a sharp pain in my chest."
+        },
+        {
+          "text": "I feel pain on the left side of my chest."
+        },
+        {
+          "text": "I feel strong pressure in my chest."
+        },
+        {
+          "text": "I feel tightness in my chest."
+        },
+        {
+          "text": "I have chest pain."
+        },
+        {
+          "text": "I have severe pain in my chest."
+        },
+        {
+          "text": "I suddenly started feeling discomfort in my chest."
+        },
+        {
+          "text": "It feels like there is a weight on my chest."
+        },
+        {
+          "text": "My chest hurts."
+        },
+        {
+          "text": "My chest started hurting."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cold_sweat",
+      "examples": [
+        {
+          "text": "I am experiencing intense cold sweating."
+        },
+        {
+          "text": "I am having a cold sweat."
+        },
+        {
+          "text": "I am sweating a lot, but I feel cold."
+        },
+        {
+          "text": "I am sweating a lot even though it is not hot."
+        },
+        {
+          "text": "I feel cold sweat all over my body."
+        },
+        {
+          "text": "I started sweating without any apparent reason."
+        },
+        {
+          "text": "I suddenly started sweating and feeling cold."
+        },
+        {
+          "text": "My body feels cold and I am sweating."
+        },
+        {
+          "text": "My face feels cold and sweaty."
+        },
+        {
+          "text": "My hands are cold and sweaty."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "dizziness",
+      "examples": [
+        {
+          "text": "I am experiencing severe vertigo."
+        },
+        {
+          "text": "I feel a little unsteady."
+        },
+        {
+          "text": "I feel dizzy."
+        },
+        {
+          "text": "I feel like I might fall because of the dizziness."
+        },
+        {
+          "text": "I feel weak and dizzy."
+        },
+        {
+          "text": "I get dizzy when I stand up."
+        },
+        {
+          "text": "I suddenly started feeling dizzy."
+        },
+        {
+          "text": "It feels like everything is spinning."
+        },
+        {
+          "text": "My head is spinning."
+        },
+        {
+          "text": "My vision became strange and I started feeling dizzy."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fainting",
+      "examples": [
+        {
+          "text": "I briefly lost consciousness."
+        },
+        {
+          "text": "I fainted."
+        },
+        {
+          "text": "I fainted a little while ago."
+        },
+        {
+          "text": "I fainted while I was standing."
+        },
+        {
+          "text": "I fell down and don't remember what happened."
+        },
+        {
+          "text": "I lost consciousness for a few seconds."
+        },
+        {
+          "text": "I suddenly blacked out."
+        },
+        {
+          "text": "I suddenly lost consciousness."
+        },
+        {
+          "text": "It seems like I blacked out for a few seconds."
+        },
+        {
+          "text": "I was unconscious for a few moments."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "nausea",
+      "examples": [
+        {
+          "text": "I feel like I am going to vomit."
+        },
+        {
+          "text": "I feel nauseous."
+        },
+        {
+          "text": "I feel nauseous and unwell."
+        },
+        {
+          "text": "I feel sick to my stomach."
+        },
+        {
+          "text": "I feel unwell and nauseous."
+        },
+        {
+          "text": "I have a strong urge to vomit."
+        },
+        {
+          "text": "I really feel like vomiting."
+        },
+        {
+          "text": "I suddenly started feeling nauseous."
+        },
+        {
+          "text": "My stomach feels upset."
+        },
+        {
+          "text": "My stomach feels very strange."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "palpitations",
+      "examples": [
+        {
+          "text": "I am having heart palpitations."
+        },
+        {
+          "text": "I can feel my heart beating really fast."
+        },
+        {
+          "text": "I can feel my heart beating very strongly."
+        },
+        {
+          "text": "I feel an irregular heartbeat in my chest."
+        },
+        {
+          "text": "It feels like my heart is racing."
+        },
+        {
+          "text": "It feels like my heart is skipping beats."
+        },
+        {
+          "text": "My heartbeat feels unusual."
+        },
+        {
+          "text": "My heart feels very restless."
+        },
+        {
+          "text": "My heart is beating very fast."
+        },
+        {
+          "text": "My heart is racing."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "shortness_breath",
+      "examples": [
+        {
+          "text": "I am getting very breathless."
+        },
+        {
+          "text": "I am having a lot of trouble breathing."
+        },
+        {
+          "text": "I am having difficulty breathing."
+        },
+        {
+          "text": "I am short of breath."
+        },
+        {
+          "text": "I can't breathe properly."
+        },
+        {
+          "text": "I feel like I am suffocating."
+        },
+        {
+          "text": "I feel like I can't fill my lungs."
+        },
+        {
+          "text": "I feel short of breath even when I am resting."
+        },
+        {
+          "text": "It feels like I can't get enough air."
+        },
+        {
+          "text": "My breathing feels very heavy."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "swelling",
+      "examples": [
+        {
+          "text": "I have fluid retention in my legs."
+        },
+        {
+          "text": "I have significant swelling in my ankles."
+        },
+        {
+          "text": "I noticed swelling in my lower limbs."
+        },
+        {
+          "text": "I noticed that my legs started swelling."
+        },
+        {
+          "text": "My ankles are very swollen."
+        },
+        {
+          "text": "My feet are more swollen than usual."
+        },
+        {
+          "text": "My feet are swollen."
+        },
+        {
+          "text": "My legs are swollen."
+        },
+        {
+          "text": "My legs become swollen, especially at the end of the day."
+        },
+        {
+          "text": "My legs feel heavy and swollen."
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "duration",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "days",
+          "synonyms": [
+            "a few days",
+            "day",
+            "days"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "hours",
+          "synonyms": [
+            "a few hours",
+            "hour",
+            "hours"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "minutes",
+          "synonyms": [
+            "a few minutes",
+            "minute",
+            "minutes"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "weeks",
+          "synonyms": [
+            "week",
+            "weeks"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pain_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "aching",
+          "synonyms": [
+            "ache",
+            "aching",
+            "soreness"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "burning",
+          "synonyms": [
+            "burning",
+            "burning sensation",
+            "heartburn-like"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pressure",
+          "synonyms": [
+            "heaviness",
+            "heavy pressure",
+            "pressure",
+            "weight"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "stabbing",
+          "synonyms": [
+            "pinching",
+            "sharp pain",
+            "stabbing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tightness",
+          "synonyms": [
+            "constriction",
+            "squeezing",
+            "tightness"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "severity",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "mild",
+          "synonyms": [
+            "mild",
+            "slight",
+            "small",
+            "weak"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "moderate",
+          "synonyms": [
+            "medium",
+            "moderate",
+            "noticeable"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "severe",
+          "synonyms": [
+            "intense",
+            "severe",
+            "strong",
+            "unbearable",
+            "very strong"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "symptom",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "chest_pain",
+          "synonyms": [
+            "chest pain",
+            "chest pressure",
+            "chest tightness",
+            "pain in my chest",
+            "pressure in my chest"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "cold_sweat",
+          "synonyms": [
+            "clammy",
+            "cold and sweaty",
+            "cold sweat",
+            "sweating cold"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dizziness",
+          "synonyms": [
+            "dizziness",
+            "dizzy",
+            "head spinning",
+            "lightheaded",
+            "vertigo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fainting",
+          "synonyms": [
+            "blacked out",
+            "fainted",
+            "fainting",
+            "lost consciousness",
+            "passed out"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "nausea",
+          "synonyms": [
+            "feel like vomiting",
+            "nausea",
+            "nauseous",
+            "sick to my stomach"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "palpitations",
+          "synonyms": [
+            "fast heartbeat",
+            "heart pounding",
+            "irregular heartbeat",
+            "palpitations",
+            "racing heart"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "shortness_of_breath",
+          "synonyms": [
+            "breathless",
+            "can't breathe",
+            "difficulty breathing",
+            "shortness of breath",
+            "trouble breathing"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "swelling",
+          "synonyms": [
+            "fluid retention",
+            "swelling",
+            "swollen ankles",
+            "swollen feet",
+            "swollen legs"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "yes_no",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": [
+            "I am not",
+            "I don't",
+            "negative",
+            "no",
+            "nop",
+            "nope"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": [
+            "correct",
+            "I am",
+            "I do",
+            "that's right",
+            "yeah",
+            "yep",
+            "yes",
+            "yes I am"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello, I am Dr. Chatbot, your personal assistant for questions about heart health. How can I help?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Other",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry, I couldn't understand your message.\n\nPlease describe what you are experiencing. For example:\nchest pain, shortness of breath, palpitations, dizziness,\nfainting, cold sweating, nausea, or swelling."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_8_1789425821972",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1789439678330",
+      "context": {
+        "breath_duration": "@duration"
+      },
+      "conditions": "@duration",
+      "event_name": "input",
+      "dialog_node": "handler_10_1789439678332"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1789440071291",
+      "context": {
+        "palpitation_severity": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_10_1789440071292"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1789440145521",
+      "context": {
+        "palpitation_sudden": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_10_1789440145523"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1789440533732",
+      "context": {
+        "dizziness_associated_symptom": "@symptom"
+      },
+      "conditions": "@symptom",
+      "event_name": "input",
+      "dialog_node": "handler_10_1789440533733"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you currently experiencing any symptoms?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1789440958562",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1789440958564",
+      "previous_sibling": "handler_8_1789440958564"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you experiencing cold sweating right now?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1789441388499",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1789441388500",
+      "previous_sibling": "handler_1_1789441388500"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1789441626100",
+      "context": {
+        "nausea_duration": "@duration"
+      },
+      "conditions": "@duration",
+      "event_name": "input",
+      "dialog_node": "handler_10_1789441626101"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1789442001145",
+      "context": {
+        "swelling_both_legs": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_10_1789442001146"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Has the swelling become worse recently?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1789442029170",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1789442029173",
+      "previous_sibling": "handler_8_1789442029173"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1789435631447",
+      "context": {
+        "duration": "@duration"
+      },
+      "conditions": "@duration",
+      "event_name": "input",
+      "dialog_node": "handler_1_1789435631448"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Did the shortness of breath start suddenly?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1789439713893",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1789439713893",
+      "previous_sibling": "handler_7_1789439713893"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How long have you been experiencing dizziness?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1789440449478",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1789440449478",
+      "previous_sibling": "handler_5_1789440449478"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1789440481979",
+      "context": {
+        "dizziness_sudden": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_1_1789440481980"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1789440902242",
+      "context": {
+        "fainting_injury": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_1_1789440902243"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1789441337391",
+      "context": {
+        "sweat_sudden": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_1_1789441337394"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1789441361524",
+      "context": {
+        "sweat_associated_symptom": "@symptom"
+      },
+      "conditions": "@symptom",
+      "event_name": "input",
+      "dialog_node": "handler_1_1789441361525"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1789441388499",
+      "context": {
+        "sweat_current": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_1_1789441388500"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1789441710000",
+      "context": {
+        "nausea_current": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_1_1789441710001"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Is the swelling affecting both legs or feet?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1789442001145",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1789442001146",
+      "previous_sibling": "handler_10_1789442001146"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1789434114558",
+      "context": {
+        "severity_score": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_2_1789434114559"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How would you describe the pain? For example: pressure, tightness, burning, stabbing, or aching."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1789435675110",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1789435675111",
+      "previous_sibling": "handler_8_1789435675111"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1789439591500",
+      "context": {
+        "breath_severity": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_2_1789439591502"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How long have you been experiencing shortness of breath?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1789439678330",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1789439678332",
+      "previous_sibling": "handler_10_1789439678332"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1789439748076",
+      "context": {
+        "breath_associated_symptom": "@symptom"
+      },
+      "conditions": "@symptom",
+      "event_name": "input",
+      "dialog_node": "handler_2_1789439748077"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "On a scale from 0 to 10, how severe are your palpitations?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1789440071291",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1789440071292",
+      "previous_sibling": "handler_10_1789440071292"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Did the dizziness start suddenly?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1789440481979",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1789440481980",
+      "previous_sibling": "handler_1_1789440481980"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1789441592615",
+      "context": {
+        "nausea_severity": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_2_1789441592616"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1789441681123",
+      "context": {
+        "nausea_associated_symptom": "@symptom"
+      },
+      "conditions": "@symptom",
+      "event_name": "input",
+      "dialog_node": "handler_2_1789441681124"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you experiencing nausea right now?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1789441710000",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1789441710001",
+      "previous_sibling": "handler_1_1789441710001"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1789441973737",
+      "context": {
+        "swelling_duration": "@duration"
+      },
+      "conditions": "@duration",
+      "event_name": "input",
+      "dialog_node": "handler_2_1789441973739"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1789440113359",
+      "context": {
+        "palpitation_duration": "@duration"
+      },
+      "conditions": "@duration",
+      "event_name": "input",
+      "dialog_node": "handler_3_1789440113361"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1789440176501",
+      "context": {
+        "palpitation_associated_symptom": "@symptom"
+      },
+      "conditions": "@symptom",
+      "event_name": "input",
+      "dialog_node": "handler_3_1789440176502"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are the palpitations happening right now?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1789440206201",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1789440206202",
+      "previous_sibling": "handler_9_1789440206202"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How long ago did the fainting episode occur?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1789440870666",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1789440870667",
+      "previous_sibling": "handler_9_1789440870667"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1789441207521",
+      "context": {
+        "sweat_severity": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_3_1789441207522"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How long have you been experiencing cold sweating?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1789441244195",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1789441244197",
+      "previous_sibling": "handler_7_1789441244197"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Did the cold sweating start suddenly?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1789441337391",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1789441337394",
+      "previous_sibling": "handler_1_1789441337394"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "On a scale from 0 to 10, how severe is your nausea?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1789441592615",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1789441592616",
+      "previous_sibling": "handler_2_1789441592616"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1789442106945",
+      "context": {
+        "swelling_associated_symptom": "@symptom"
+      },
+      "conditions": "@symptom",
+      "event_name": "input",
+      "dialog_node": "handler_3_1789442106946"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "On a scale from 0 to 10, how severe is your chest pain?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1789434114558",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1789434114559",
+      "previous_sibling": "handler_2_1789434114559"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How long have you been experiencing this chest pain?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1789435631447",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1789435631448",
+      "previous_sibling": "handler_1_1789435631448"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Did the palpitations start suddenly?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1789440145521",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1789440145523",
+      "previous_sibling": "handler_10_1789440145523"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you also experiencing chest pain, shortness of breath, dizziness, or fainting?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1789440176501",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1789440176502",
+      "previous_sibling": "handler_3_1789440176502"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1789440818081",
+      "context": {
+        "fainting_conscious": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_4_1789440818083"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you also experiencing chest pain, shortness of breath, cold sweating, dizziness, or palpitations?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1789441681123",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1789441681124",
+      "previous_sibling": "handler_2_1789441681124"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1789435698654",
+      "context": {
+        "associated_symptom": "@symptom"
+      },
+      "conditions": "@symptom",
+      "event_name": "input",
+      "dialog_node": "handler_5_1789435698655"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you also experiencing chest pain, palpitations, dizziness, fainting, or cold sweating?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1789439748076",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1789439748077",
+      "previous_sibling": "handler_2_1789439748077"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1789440449478",
+      "context": {
+        "dizziness_duration": "@duration"
+      },
+      "conditions": "@duration",
+      "event_name": "input",
+      "dialog_node": "handler_5_1789440449478"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1789440572447",
+      "context": {
+        "dizziness_current": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_5_1789440572448"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Have you fully regained consciousness after fainting?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1789440818081",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1789440818083",
+      "previous_sibling": "handler_4_1789440818083"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Did you experience chest pain, palpitations, shortness of breath, or severe dizziness before or after fainting?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1789440933041",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1789440933042",
+      "previous_sibling": "handler_8_1789440933042"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1789442133541",
+      "context": {
+        "swelling_current": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_5_1789442133542"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you also experiencing chest pain, shortness of breath, palpitations, or fainting?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1789440533732",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1789440533733",
+      "previous_sibling": "handler_10_1789440533733"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you also experiencing chest pain, shortness of breath, nausea, dizziness, or fainting?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1789441361524",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1789441361525",
+      "previous_sibling": "handler_1_1789441361525"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Did the nausea start suddenly?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1789441652263",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1789441652264",
+      "previous_sibling": "handler_9_1789441652264"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How long have you been experiencing the swelling?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1789441973737",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1789441973739",
+      "previous_sibling": "handler_2_1789441973739"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you also experiencing shortness of breath, cold sweating, nausea, dizziness, palpitations, or fainting?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1789435698654",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1789435698655",
+      "previous_sibling": "handler_5_1789435698655"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "On a scale from 0 to 10, how severe is your shortness of breath?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1789439591500",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1789439591502",
+      "previous_sibling": "handler_2_1789439591502"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1789439713893",
+      "context": {
+        "breath_sudden": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_7_1789439713893"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you having difficulty breathing right now?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1789439783536",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1789439783536",
+      "previous_sibling": "handler_9_1789439783536"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "On a scale from 0 to 10, how severe is your dizziness?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1789440397630",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1789440397632",
+      "previous_sibling": "handler_9_1789440397632"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Did you fall or injure yourself when you fainted?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_2_1789440902242",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1789440902243",
+      "previous_sibling": "handler_1_1789440902243"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "On a scale from 0 to 10, how severe is the cold sweating?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1789441207521",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1789441207522",
+      "previous_sibling": "handler_3_1789441207522"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1789441244195",
+      "context": {
+        "sweat_duration": "@duration"
+      },
+      "conditions": "@duration",
+      "event_name": "input",
+      "dialog_node": "handler_7_1789441244197"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1789435675110",
+      "context": {
+        "pain_type": "@pain_type"
+      },
+      "conditions": "@pain_type",
+      "event_name": "input",
+      "dialog_node": "handler_8_1789435675111"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are these symptoms happening right now?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1789435737931",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1789435737931",
+      "previous_sibling": "handler_9_1789435737931"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How long have you been experiencing these palpitations?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1789440113359",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1789440113361",
+      "previous_sibling": "handler_3_1789440113361"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you feeling dizzy right now?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1789440572447",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1789440572448",
+      "previous_sibling": "handler_5_1789440572448"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1789440933041",
+      "context": {
+        "fainting_associated_symptom": "@symptom"
+      },
+      "conditions": "@symptom",
+      "event_name": "input",
+      "dialog_node": "handler_8_1789440933042"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1789440958562",
+      "context": {
+        "fainting_current_symptoms": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_8_1789440958564"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1789442029170",
+      "context": {
+        "swelling_worsening": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_8_1789442029173"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you also experiencing shortness of breath, chest pain, dizziness, or palpitations?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_6_1789442106945",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1789442106946",
+      "previous_sibling": "handler_3_1789442106946"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Are you experiencing the swelling right now?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_8_1789442133541",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1789442133542",
+      "previous_sibling": "handler_5_1789442133542"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1789435737931",
+      "context": {
+        "current_symptoms": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_9_1789435737931"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1789439783536",
+      "context": {
+        "breath_current": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_9_1789439783536"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1789440206201",
+      "context": {
+        "palpitation_current": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_9_1789440206202"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1789440397630",
+      "context": {
+        "dizziness_severity": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_9_1789440397632"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1789440870666",
+      "context": {
+        "fainting_duration": "@duration"
+      },
+      "conditions": "@duration",
+      "event_name": "input",
+      "dialog_node": "handler_9_1789440870667"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How long have you been experiencing nausea?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_1_1789441626100",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1789441626101",
+      "previous_sibling": "handler_10_1789441626101"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1789441652263",
+      "context": {
+        "nausea_sudden": "@yes_no"
+      },
+      "conditions": "@yes_no",
+      "event_name": "input",
+      "dialog_node": "handler_9_1789441652264"
+    },
+    {
+      "type": "frame",
+      "title": "Fainting",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#fainting",
+      "dialog_node": "node_10_1789429474059",
+      "previous_sibling": "node_5_1789429458908"
+    },
+    {
+      "type": "frame",
+      "title": "Cold Sweat",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#cold_sweat",
+      "dialog_node": "node_1_1789429489414",
+      "previous_sibling": "node_10_1789429474059"
+    },
+    {
+      "type": "frame",
+      "title": "Swelling",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#swelling",
+      "dialog_node": "node_4_1789429528058",
+      "previous_sibling": "node_9_1789429510753"
+    },
+    {
+      "type": "frame",
+      "title": "Dizziness",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#dizziness",
+      "dialog_node": "node_5_1789429458908",
+      "previous_sibling": "node_9_1789429439206"
+    },
+    {
+      "type": "frame",
+      "title": "Chest Pain",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#chest_pain",
+      "dialog_node": "node_8_1789425821972",
+      "previous_sibling": "node_4_1789429528058"
+    },
+    {
+      "type": "frame",
+      "title": "Shortness of Breath",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#shortness_breath",
+      "dialog_node": "node_9_1789429369225",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "frame",
+      "title": "Palpitations",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#palpitations",
+      "dialog_node": "node_9_1789429439206",
+      "previous_sibling": "node_9_1789429369225"
+    },
+    {
+      "type": "frame",
+      "title": "Nausea",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#nausea",
+      "dialog_node": "node_9_1789429510753",
+      "previous_sibling": "node_1_1789429489414"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "WARNING: Based on the symptoms you reported, you may need immediate medical evaluation.\n\nPlease seek emergency medical care now. If you are in Brazil, call SAMU at 192 or go to the nearest emergency department.\n\nStop physical activity and rest in a safe position. If possible, ask someone to stay with you. Do not drive yourself if you are feeling faint, severely dizzy, or very short of breath.\n\nThis assistant cannot determine the cause of your symptoms and does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1789425821972",
+      "conditions": "$severity_score >= 7 || $associated_symptom == \"shortness_of_breath\" || $associated_symptom == \"fainting\"",
+      "dialog_node": "response_10_1789436307944"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the information you provided, a medical evaluation is recommended.  Avoid strenuous physical activity and arrange an evaluation with a healthcare professional as soon as possible.  If the palpitations become severe or are accompanied by chest pain, difficulty breathing, fainting, or a significant worsening of your condition, seek emergency medical care.  This assistant does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1789429439206",
+      "conditions": "$palpitation_severity >= 4 && $palpitation_severity < 7",
+      "dialog_node": "response_10_1789440254551",
+      "previous_sibling": "response_9_1789440071300"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the information you provided, no immediate warning sign was identified by this academic screening flow.  Continue monitoring for recurrence or worsening of the swelling.  If the swelling returns, persists, becomes worse, or is accompanied by chest pain, difficulty breathing, dizziness, or fainting, seek professional medical evaluation.  This assistant provides general guidance only and does not replace evaluation by a healthcare professional."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1789429528058",
+      "conditions": "$swelling_worsening == \"no\" && $swelling_current == \"no\"",
+      "dialog_node": "response_10_1789442193054",
+      "previous_sibling": "response_3_1789442179057"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the information you provided, a medical evaluation is recommended.  Avoid strenuous physical activity and arrange an evaluation with a healthcare professional as soon as possible.  If your breathing becomes more difficult, or if you develop chest pain, fainting, severe dizziness, or a significant worsening of your condition, seek emergency medical care.  This assistant does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1789429369225",
+      "conditions": "$breath_severity >= 4 && $breath_severity < 7",
+      "dialog_node": "response_1_1789439866423",
+      "previous_sibling": "response_5_1789439591524"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the information you provided, no immediate warning sign was identified by this academic screening flow.  Sit or rest in a safe place until the dizziness improves and avoid sudden movements or activities that could result in a fall.  If the dizziness persists, returns, becomes worse, or is accompanied by other symptoms, seek professional medical evaluation.  This assistant provides general guidance only and does not replace evaluation by a healthcare professional."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1789429458908",
+      "conditions": "$dizziness_severity >= 0 && $dizziness_severity < 4",
+      "dialog_node": "response_1_1789440641068",
+      "previous_sibling": "response_9_1789440619872"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the information you provided, a medical evaluation is recommended.  Rest and avoid strenuous physical activity while the symptoms are present. Arrange an evaluation with a healthcare professional as soon as possible.  If the cold sweating becomes severe or is accompanied by chest pain, difficulty breathing, fainting, or a significant worsening of your condition, seek emergency medical care.  This assistant does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1789429489414",
+      "conditions": "$sweat_severity >= 4 && $sweat_severity < 7",
+      "dialog_node": "response_1_1789441430875",
+      "previous_sibling": "response_4_1789441207515"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the information you provided, a medical evaluation is recommended.\n\nAvoid strenuous physical activity and arrange an evaluation with a healthcare professional as soon as possible.\n\nIf the chest pain becomes severe, persists, or is accompanied by difficulty breathing, fainting, cold sweating, or a significant worsening of your condition, seek emergency medical care.\n\nThis assistant does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1789425821972",
+      "conditions": "$severity_score >= 4 && $severity_score < 7",
+      "dialog_node": "response_2_1789436487556",
+      "previous_sibling": "response_10_1789436307944"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the information you provided, no immediate warning sign was identified by this academic screening flow.  Rest and avoid strenuous physical activity while the palpitations are present. Monitor your symptoms.  If the palpitations persist, return frequently, become worse, or are accompanied by other symptoms, seek professional medical evaluation.  This assistant provides general guidance only and does not replace evaluation by a healthcare professional."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1789429439206",
+      "conditions": "$palpitation_severity >= 0 && $palpitation_severity < 4",
+      "dialog_node": "response_2_1789440272200",
+      "previous_sibling": "response_10_1789440254551"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the information you provided, a medical evaluation is recommended.  Rest and monitor your symptoms. Arrange an evaluation with a healthcare professional as soon as possible if the nausea persists or worsens.  If you develop chest pain, difficulty breathing, fainting, severe dizziness, or a significant worsening of your condition, seek emergency medical care.  This assistant does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1789429510753",
+      "conditions": "$nausea_severity >= 4 && $nausea_severity < 7",
+      "dialog_node": "response_2_1789441764677",
+      "previous_sibling": "response_6_1789441592827"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "WARNING: The fainting episode and the symptoms you reported may require immediate medical evaluation.  Please seek emergency medical care now. If you are in Brazil, call SAMU at 192 or go to the nearest emergency department.  Remain seated or lying down in a safe place. Do not stand up suddenly. If possible, ask someone to stay with you and help you obtain medical assistance.  Do not drive yourself.  If you lose consciousness again or become unresponsive, someone nearby should immediately call emergency services and follow the emergency operator's instructions.  This assistant cannot determine the cause of the fainting episode and does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1789429474059",
+      "conditions": "$fainting_conscious == \"no\" || $fainting_injury == \"yes\" || $fainting_associated_symptom == \"chest_pain\" || $fainting_associated_symptom == \"shortness_of_breath\" || $fainting_associated_symptom == \"palpitations\"",
+      "dialog_node": "response_3_1789440817996"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the information you provided, no immediate warning sign was identified by this academic screening flow.  Rest and monitor your symptoms.  If the cold sweating persists, returns, becomes worse, or is accompanied by other symptoms, seek professional medical evaluation.  This assistant provides general guidance only and does not replace evaluation by a healthcare professional."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1789429489414",
+      "conditions": "$sweat_severity >= 0 && $sweat_severity < 4",
+      "dialog_node": "response_3_1789441448939",
+      "previous_sibling": "response_1_1789441430875"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the information you provided, a medical evaluation is recommended.  Monitor the swelling and arrange an evaluation with a healthcare professional, especially if it persists or continues to worsen.  If you develop chest pain, difficulty breathing, fainting, severe dizziness, or a significant worsening of your condition, seek emergency medical care.  This assistant does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1789429528058",
+      "conditions": "$swelling_worsening == \"yes\" || $swelling_current == \"yes\"",
+      "dialog_node": "response_3_1789442179057",
+      "previous_sibling": "response_4_1789441973756"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Even if you have fully recovered, an unexplained fainting episode should be medically evaluated.  Remain in a safe position and stand up slowly when you feel able to do so. Avoid driving or strenuous physical activity until you have been evaluated.  Arrange an evaluation with a healthcare professional as soon as possible.  If you faint again or develop chest pain, difficulty breathing, severe palpitations, or worsening symptoms, seek emergency medical care.  This assistant does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1789429474059",
+      "conditions": "$fainting_conscious == \"yes\"",
+      "dialog_node": "response_4_1789441008593",
+      "previous_sibling": "response_3_1789440817996"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "WARNING: The symptoms you reported may require immediate medical evaluation.  Please seek emergency medical care now. If you are in Brazil, call SAMU at 192 or go to the nearest emergency department.  Stop physical activity and rest in a safe position. If possible, ask someone to stay with you.  Do not drive yourself if you are experiencing chest pain, difficulty breathing, severe dizziness, or feeling faint.  This assistant cannot determine the cause of your symptoms and does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1789429489414",
+      "conditions": "$sweat_severity >= 7 || $sweat_associated_symptom == \"chest_pain\" || $sweat_associated_symptom == \"shortness_of_breath\" || $sweat_associated_symptom == \"fainting\"",
+      "dialog_node": "response_4_1789441207515",
+      "previous_sibling": "slot_10_1789441388499"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "WARNING: The swelling combined with the symptoms you reported may require immediate medical evaluation.  Please seek emergency medical care now. If you are in Brazil, call SAMU at 192 or go to the nearest emergency department.  Stop strenuous physical activity and rest in a safe position. If possible, ask someone to stay with you.  Do not drive yourself if you are experiencing chest pain, difficulty breathing, severe dizziness, or feeling faint.  This assistant cannot determine the cause of your symptoms and does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1789429528058",
+      "conditions": "$swelling_associated_symptom == \"shortness_of_breath\" || $swelling_associated_symptom == \"chest_pain\" || $swelling_associated_symptom == \"fainting\"",
+      "dialog_node": "response_4_1789441973756"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "WARNING: The symptoms you reported may require immediate medical evaluation.\n\nPlease seek emergency medical care now. If you are in Brazil, call SAMU at 192 or go to the nearest emergency department.\n\nStop physical activity and rest in a safe position. If possible, ask someone to stay with you. Do not drive yourself if you are severely short of breath, dizzy, or feeling faint.\n\nThis assistant cannot determine the cause of your symptoms and does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1789429369225",
+      "conditions": "$breath_severity >= 7 || $breath_associated_symptom == \"chest_pain\" || $breath_associated_symptom == \"fainting\"",
+      "dialog_node": "response_5_1789439591524"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the information you provided, no immediate warning sign was identified by this academic screening flow.\n\nRest and avoid strenuous physical activity while symptoms are present. Monitor your condition.\n\nIf the chest pain persists, returns, becomes worse, or is accompanied by other symptoms, seek professional medical evaluation.\n\nThis assistant provides general guidance only and does not replace evaluation by a healthcare professional."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1789425821972",
+      "conditions": "$severity_score >= 0 && $severity_score < 4",
+      "dialog_node": "response_6_1789436528456",
+      "previous_sibling": "response_2_1789436487556"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "WARNING: The symptoms you reported may require immediate medical evaluation.  Please seek emergency medical care now. If you are in Brazil, call SAMU at 192 or go to the nearest emergency department.  Sit or lie down in a safe place to reduce the risk of falling. Avoid standing or walking without assistance if you feel unstable. If possible, ask someone to stay with you.  Do not drive yourself while experiencing severe dizziness, fainting, chest pain, or difficulty breathing.  This assistant cannot determine the cause of your symptoms and does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1789429458908",
+      "conditions": "$dizziness_severity >= 7 || $dizziness_associated_symptom == \"chest_pain\" || $dizziness_associated_symptom == \"fainting\" || $dizziness_associated_symptom == \"shortness_of_breath\"",
+      "dialog_node": "response_6_1789440397640",
+      "previous_sibling": "slot_10_1789440572447"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "WARNING: The symptoms you reported may require immediate medical evaluation.  Please seek emergency medical care now. If you are in Brazil, call SAMU at 192 or go to the nearest emergency department.  Stop physical activity and rest in a safe position. If possible, ask someone to stay with you.  Do not drive yourself if you are experiencing chest pain, difficulty breathing, severe dizziness, or feeling faint.  This assistant cannot determine the cause of your symptoms and does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1789429510753",
+      "conditions": "$nausea_severity >= 7 || $nausea_associated_symptom == \"chest_pain\" || $nausea_associated_symptom == \"shortness_of_breath\" || $nausea_associated_symptom == \"fainting\"",
+      "dialog_node": "response_6_1789441592827"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the information you provided, no immediate warning sign was identified by this academic screening flow.  Rest and monitor your symptoms.  If the nausea persists, returns, becomes worse, or is accompanied by other symptoms, seek professional medical evaluation.  This assistant provides general guidance only and does not replace evaluation by a healthcare professional."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1789429510753",
+      "conditions": "$nausea_severity >= 0 && $nausea_severity < 4",
+      "dialog_node": "response_6_1789441780494",
+      "previous_sibling": "response_2_1789441764677"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the information you provided, no immediate warning sign was identified by this academic screening flow.  Rest and avoid strenuous physical activity while experiencing shortness of breath. Monitor your symptoms.  If the difficulty breathing persists, returns, or becomes worse, seek professional medical evaluation.  This assistant provides general guidance only and does not replace evaluation by a healthcare professional."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1789429369225",
+      "conditions": "$breath_severity >= 0 && $breath_severity < 4",
+      "dialog_node": "response_7_1789439892433",
+      "previous_sibling": "response_1_1789439866423"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "WARNING: The symptoms you reported may require immediate medical evaluation.  Please seek emergency medical care now. If you are in Brazil, call SAMU at 192 or go to the nearest emergency department.  Stop physical activity and rest in a safe position. If possible, ask someone to stay with you. Do not drive yourself if you are feeling faint, severely dizzy, or very short of breath.  This assistant cannot determine the cause of your symptoms and does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1789429439206",
+      "conditions": "$palpitation_severity >= 7 || $palpitation_associated_symptom == \"chest_pain\" || $palpitation_associated_symptom == \"fainting\" || $palpitation_associated_symptom == \"shortness_of_breath\"",
+      "dialog_node": "response_9_1789440071300"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Based on the information you provided, a medical evaluation is recommended.  Sit or lie down if you feel unstable and avoid activities that could result in a fall. Avoid driving while you are dizzy.  Arrange an evaluation with a healthcare professional as soon as possible.  If the dizziness becomes severe or is accompanied by chest pain, difficulty breathing, fainting, or a significant worsening of your condition, seek emergency medical care.  This assistant does not provide a medical diagnosis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1789429458908",
+      "conditions": "$dizziness_severity >= 4 && $dizziness_severity < 7",
+      "dialog_node": "response_9_1789440619872",
+      "previous_sibling": "response_6_1789440397640"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429439206",
+      "variable": "$palpitation_severity",
+      "dialog_node": "slot_10_1789440071291",
+      "previous_sibling": "response_2_1789440272200"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1789429458908",
+      "variable": "$dizziness_current",
+      "dialog_node": "slot_10_1789440572447",
+      "previous_sibling": "slot_5_1789440533732"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1789429474059",
+      "variable": "$fainting_current_symptoms",
+      "dialog_node": "slot_10_1789440958562",
+      "previous_sibling": "slot_6_1789440933041"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1789429489414",
+      "variable": "$sweat_current",
+      "dialog_node": "slot_10_1789441388499",
+      "previous_sibling": "slot_2_1789441361524"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429510753",
+      "variable": "$nausea_sudden",
+      "dialog_node": "slot_10_1789441652263",
+      "previous_sibling": "slot_1_1789441626100"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429369225",
+      "variable": "$breath_severity",
+      "dialog_node": "slot_1_1789439591500",
+      "previous_sibling": "response_7_1789439892433"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429439206",
+      "variable": "$palpitation_associated_symptom",
+      "dialog_node": "slot_1_1789440176501",
+      "previous_sibling": "slot_2_1789440145521"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1789429458908",
+      "variable": "$dizziness_severity",
+      "dialog_node": "slot_1_1789440397630"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1789429489414",
+      "variable": "$sweat_duration",
+      "dialog_node": "slot_1_1789441244195",
+      "previous_sibling": "slot_6_1789441207521"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429510753",
+      "variable": "$nausea_duration",
+      "dialog_node": "slot_1_1789441626100",
+      "previous_sibling": "slot_5_1789441592615"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1789425821972",
+      "variable": "$pain_type",
+      "dialog_node": "slot_2_1789435675110",
+      "previous_sibling": "slot_9_1789435631447"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429369225",
+      "variable": "$breath_associated_symptom",
+      "dialog_node": "slot_2_1789439748076",
+      "previous_sibling": "slot_5_1789439713893"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429439206",
+      "variable": "$palpitation_sudden",
+      "dialog_node": "slot_2_1789440145521",
+      "previous_sibling": "slot_9_1789440113359"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1789429474059",
+      "variable": "$fainting_duration",
+      "dialog_node": "slot_2_1789440870666",
+      "previous_sibling": "slot_5_1789440818081"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1789429474059",
+      "variable": "$fainting_injury",
+      "dialog_node": "slot_2_1789440902242",
+      "previous_sibling": "slot_2_1789440870666"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1789429489414",
+      "variable": "$sweat_associated_symptom",
+      "dialog_node": "slot_2_1789441361524",
+      "previous_sibling": "slot_6_1789441337391"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1789429528058",
+      "variable": "$swelling_duration",
+      "dialog_node": "slot_2_1789441973737",
+      "previous_sibling": "response_10_1789442193054"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1789429528058",
+      "variable": "$swelling_both_legs",
+      "dialog_node": "slot_2_1789442001145",
+      "previous_sibling": "slot_2_1789441973737"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429369225",
+      "variable": "$breath_duration",
+      "dialog_node": "slot_5_1789439678330",
+      "previous_sibling": "slot_1_1789439591500"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429369225",
+      "variable": "$breath_sudden",
+      "dialog_node": "slot_5_1789439713893",
+      "previous_sibling": "slot_5_1789439678330"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429369225",
+      "variable": "$breath_current",
+      "dialog_node": "slot_5_1789439783536",
+      "previous_sibling": "slot_2_1789439748076"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1789429458908",
+      "variable": "$dizziness_duration",
+      "dialog_node": "slot_5_1789440449478",
+      "previous_sibling": "slot_1_1789440397630"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1789429458908",
+      "variable": "$dizziness_sudden",
+      "dialog_node": "slot_5_1789440481979",
+      "previous_sibling": "slot_5_1789440449478"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1789429458908",
+      "variable": "$dizziness_associated_symptom",
+      "dialog_node": "slot_5_1789440533732",
+      "previous_sibling": "slot_5_1789440481979"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1789429474059",
+      "variable": "$fainting_conscious",
+      "dialog_node": "slot_5_1789440818081",
+      "previous_sibling": "response_4_1789441008593"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429510753",
+      "variable": "$nausea_severity",
+      "dialog_node": "slot_5_1789441592615",
+      "previous_sibling": "response_6_1789441780494"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429510753",
+      "variable": "$nausea_associated_symptom",
+      "dialog_node": "slot_5_1789441681123",
+      "previous_sibling": "slot_10_1789441652263"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1789429528058",
+      "variable": "$swelling_worsening",
+      "dialog_node": "slot_5_1789442029170",
+      "previous_sibling": "slot_2_1789442001145"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1789425821972",
+      "variable": "$severity_score",
+      "dialog_node": "slot_6_1789434114558",
+      "previous_sibling": "response_6_1789436528456"
+    },
+    {
+      "type": "slot",
+      "parent": "node_10_1789429474059",
+      "variable": "$fainting_associated_symptom",
+      "dialog_node": "slot_6_1789440933041",
+      "previous_sibling": "slot_2_1789440902242"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1789429489414",
+      "variable": "$sweat_severity",
+      "dialog_node": "slot_6_1789441207521"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1789429489414",
+      "variable": "$sweat_sudden",
+      "dialog_node": "slot_6_1789441337391",
+      "previous_sibling": "slot_1_1789441244195"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1789429528058",
+      "variable": "$swelling_associated_symptom",
+      "dialog_node": "slot_6_1789442106945",
+      "previous_sibling": "slot_5_1789442029170"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1789425821972",
+      "variable": "$associated_symptom",
+      "dialog_node": "slot_7_1789435698654",
+      "previous_sibling": "slot_2_1789435675110"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1789425821972",
+      "variable": "$current_symptoms",
+      "dialog_node": "slot_7_1789435737931",
+      "previous_sibling": "slot_7_1789435698654"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429439206",
+      "variable": "$palpitation_current",
+      "dialog_node": "slot_7_1789440206201",
+      "previous_sibling": "slot_1_1789440176501"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1789429528058",
+      "variable": "$swelling_current",
+      "dialog_node": "slot_8_1789442133541",
+      "previous_sibling": "slot_6_1789442106945"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1789425821972",
+      "variable": "$duration",
+      "dialog_node": "slot_9_1789435631447",
+      "previous_sibling": "slot_6_1789434114558"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429439206",
+      "variable": "$palpitation_duration",
+      "dialog_node": "slot_9_1789440113359",
+      "previous_sibling": "slot_10_1789440071291"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1789429510753",
+      "variable": "$nausea_current",
+      "dialog_node": "slot_9_1789441710000",
+      "previous_sibling": "slot_5_1789441681123"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "created for assistant a3fc5485-c05c-43e9-9f93-e84488164a55",
+  "name": "Dr. Chatbot-dialog"
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Cardiology Conversational Assistant powered by IBM watsonx Assistant."
+    >
+
+    <title>CardioAssistant</title>
+
+    <link
+        rel="stylesheet"
+        href="../static/css/style.css"
+    >
+</head>
+
+<body>
+
+    <main class="page">
+
+        <section class="chat-widget">
+
+            <!-- Application header -->
+            <header class="chat-header">
+
+                <div class="assistant-profile">
+                    <div class="header-avatar">
+                      <img
+                          src="../static/images/assistant-avatar.png"
+                          alt="CardioAssistant">
+                    </div>
+
+                    <div class="assistant-info">
+                        <h1>CardioAssistant</h1>
+                        <p>Your heart health assistant</p>
+                    </div>
+                </div>
+
+                <div class="status">
+                    <span class="status-dot"></span>
+                    <span>Online</span>
+                </div>
+
+            </header>
+
+
+            <!-- Conversation area -->
+            <section
+                id="chat-messages"
+                class="chat-messages"
+                aria-live="polite"
+                aria-label="Conversation"
+            >
+
+                <!-- Initial assistant message -->
+                <article class="message-row assistant-row">
+
+                    <div class="message-avatar">
+                        <span>+</span>
+                    </div>
+
+                    <div class="message-wrapper">
+
+                        <div class="message assistant-message">
+                            Hello!<br>
+                            How can I help you today?
+                        </div>
+
+                        <span class="message-time">
+                            CardioAssistant
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Decorative empty-state content -->
+                <div
+                    id="chat-background"
+                    class="chat-background"
+                    aria-hidden="true"
+                >
+
+                    <div class="heart-icon">
+                        ♥
+                    </div>
+
+                    <div class="heartbeat">
+                        ───╱╲─╱╲────♥────╱╲─╱╲───
+                    </div>
+
+                    <p>
+                        Information • Prevention • Health
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- Medical disclaimer -->
+            <aside class="medical-disclaimer">
+                <strong>Educational assistant:</strong>
+                This system provides general guidance only and does not
+                provide medical diagnoses or replace professional medical care.
+            </aside>
+
+
+            <!-- Message input -->
+            <form
+                id="chat-form"
+                class="chat-input-area"
+                autocomplete="off"
+            >
+
+                <input
+                    id="message-input"
+                    type="text"
+                    placeholder="Type your message..."
+                    aria-label="Type your message"
+                    maxlength="500"
+                    required
+                >
+
+                <button
+                    id="send-button"
+                    class="send-button"
+                    type="submit"
+                    aria-label="Send message"
+                    title="Send message"
+                >
+                    ➤
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <script
+        src="../static/js/chat.js"
+    ></script>
+
+</body>
+</html>
